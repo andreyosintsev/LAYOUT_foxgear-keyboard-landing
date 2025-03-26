@@ -10,6 +10,8 @@ body {
 
     line-height: var(--text-line-height-main, 20px);
 
+    background-color: var(--background-color-main, #FFFFFF);
+
     scrollbar-width: thin;
 }
 
@@ -17,11 +19,25 @@ body {
     display: none !important;
 }
 
+.main {
+    padding: 16px 0;
+
+    color: var(--text-color-inverted, #FFFFFF);
+
+    background-color: var(--background-color-inverted, #000000);
+}
+
 .wrapper {
     width: 100%;
     max-width: var(--wrapper-width, 1200px);
     margin: 0 auto;
     padding: 0;
+}
+
+.wrapper_dark {
+    color: var(--text-color-inverted, #FFFFFF);
+
+    background-color: var(--background-color-inverted, #000000);
 }
 
 .technology {

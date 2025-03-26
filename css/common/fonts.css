@@ -1,42 +1,126 @@
-/*Montserrat Medium*/
-
+/*Lato 250*/
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Lato';
+    font-weight: 250;
+    src: url("../../fonts/Lato-Thin.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 250;
+    font-style: italic;
+    src: url("../../fonts/Lato-ThinItalic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato 275*/
+@font-face {
+    font-family: 'Lato';
+    font-weight: 275;
+    src: url("../../fonts/Lato-ExtraLight.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 275;
+    font-style: italic;
+    src: url("../../fonts/Lato-ExtraLightItalic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato Light 300*/
+@font-face {
+    font-family: 'Lato';
     font-weight: 300;
-    src: url("../../fonts/Montserrat-Light.otf") format("truetype");
+    src: url("../../fonts/Lato-Light.ttf") format("truetype");
     font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    src: url("../../fonts/Montserrat-Medium.otf") format("truetype");
-    font-display: swap;
-}
-/*Montserrat SemiBold*/
-@font-face {
-    font-family: 'Montserrat';
-    font-weight: 600;
-    src: url("../../fonts/Montserrat-SemiBold.otf") format("truetype");
-    font-display: swap;
-}
-/*Roboto Light*/
-@font-face {
-    font-family: 'Roboto';
+    font-family: 'Lato';
     font-weight: 300;
-    src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+    font-style: italic;
+    src: url("../../fonts/Lato-LightItalic.ttf") format("truetype");
     font-display: swap;
 }
-/*Roboto Regular*/
+/*Lato Regular 400*/
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Lato';
     font-weight: 400;
-    src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+    src: url("../../fonts/Lato-Regular.ttf") format("truetype");
     font-display: swap;
 }
-/*Roboto Medium*/
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../../fonts/Lato-Italic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato Medium 500*/
+@font-face {
+    font-family: 'Lato';
+    font-weight: 500;
+    src: url("../../fonts/Lato-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-style: italic;
+    src: url("../../fonts/Lato-MediumItalic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato Semi-bold 600*/
+@font-face {
+    font-family: 'Lato';
     font-weight: 600;
-    src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+    src: url("../../fonts/Lato-SemiBold.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-style: italic;
+    src: url("../../fonts/Lato-SemiBoldItalic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato Bold 700*/
+@font-face {
+    font-family: 'Lato';
+    font-weight: 700;
+    src: url("../../fonts/Lato-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-style: italic;
+    src: url("../../fonts/Lato-BoldItalic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato Extra-Bold 800*/
+@font-face {
+    font-family: 'Lato';
+    font-weight: 800;
+    src: url("../../fonts/Lato-ExtraBold.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 800;
+    font-style: italic;
+    src: url("../../fonts/Lato-ExtraBoldItalic.ttf") format("truetype");
+    font-display: swap;
+}
+/*Lato Black 900*/
+@font-face {
+    font-family: 'Lato';
+    font-weight: 900;
+    src: url("../../fonts/Lato-Black.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: italic;
+    src: url("../../fonts/Lato-BlackItalic.ttf") format("truetype");
     font-display: swap;
 }

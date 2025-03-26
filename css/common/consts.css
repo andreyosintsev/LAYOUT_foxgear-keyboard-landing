@@ -28,9 +28,10 @@
 */
 
     --text-color-main:          var(--black);
+    --text-color-inverted:      var(--white);
     --text-color-menu:          var(--black-light);
-    --text-family-main:         Montserrat, arial, sans-serif;
-    --text-family-featured:     Roboto, arial, sans-serif;
+    --text-family-main:         'Lato', arial, sans-serif;
+    /* --text-family-featured:     Roboto, arial, sans-serif; */
 
     --text-size-large:          18px;
     --text-size-main:           16px;
@@ -51,6 +52,13 @@
     --text-line-height-large_mobile:    22px;
     --text-line-height-main_mobile:     18px;
     --text-line-height-small_mobile:    16px;
+
+/*
+    Фоны
+*/
+
+    --background-color-main: var(--white);
+    --background-color-inverted: var(--black);
 
 /*
     Рамки
