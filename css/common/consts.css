@@ -63,6 +63,8 @@
 /*
     Рамки
 */
+
+    --border-radius-video:          20px; /* popup */
     --border-radius-popup:          10px; /* popup */
     --border-radius-button:         8px;  /* button */
     --border-radius-button_mini:    4px;  /* button */
