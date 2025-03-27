@@ -17,7 +17,7 @@
 }
 
 .flex-image-text__title {
-    margin-top: 50px;
+    margin-top: 0;
 
     text-align: left;
 }
@@ -36,6 +36,12 @@
     margin-bottom: 30px;
 
     border-radius: inherit;
+}
+
+@media (max-width: 900px) {
+    .flex-image-text__title {
+        margin-top: -50px;
+    }
 }
 
 @media (max-width: 768px) {
