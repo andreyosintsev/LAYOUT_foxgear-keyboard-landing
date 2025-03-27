@@ -10,8 +10,6 @@ body {
 
     line-height: var(--text-line-height-main, 30px);
 
-    text-align: center;
-
     background-color: var(--background-color-main, #FFFFFF);
 
     scrollbar-width: thin;
@@ -26,6 +24,8 @@ body {
 
     color: var(--text-color-inverted, #FFFFFF);
 
+    text-align: center;
+
     background-color: var(--background-color-inverted, #000000);
 }
 
@@ -38,6 +38,18 @@ body {
 
 .paragraph {
     margin-bottom: 40px;
+}
+
+.note {
+    margin-bottom: 40px;
+
+    color: var(--blue, #4A90E2);
+    font-size: var(--text-size-small, 16px);
+    font-weight: var(--text-weight-main, 400);
+}
+
+.mt-100 {
+    margin-top: 100px;
 }
 
 
@@ -121,3 +133,13 @@ body {
         overflow: auto;
     }
 }
+
+@media (max-width: 900px) {
+    body {
+        font-size: var(--text-size-main_mobile, 18px);
+
+        line-height: var(--text-line-height-main_mobile, 25px);
+    }
+}
+
+

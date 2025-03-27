@@ -1,16 +1,13 @@
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-    padding: 10px 12px;
+    display: block;
+    padding: 8px 16px;
 
     color: var(--button-normal-color, #FFFFFF);
     font-family: var(--text-family-main, sans-serif);
-    font-size: var(--text-size-main, 16px);
+    font-size: var(--text-size-main, 20px);
     font-weight: var(--text-weight-bold, 600);
 
-    line-height: var(--text-line-height-main, 20px);
+    line-height: 18px;
     text-align: center;
 
     background-color: var(--button-normal-background-color, #000000);
@@ -38,6 +35,26 @@
 
 .button_outlined:hover {
     background-color: var(--button-outlined-background-color_hover, #EFEFEF);
+
+    border: 2px solid var(--button-outlined-background-color_hover, #1C9C4D);
+}
+
+.button_blue {
+    display: inline-block;
+
+    color: var(--button-blue-color, #FFFFFF);
+    font-size: 16px;
+    font-weight: var(--text-weight-bold, 400);
+
+    background-color: var(--button-blue-background-color, #4A90E2);
+
+    border: 2px solid var(--button-blue-border-color, #4A90E2);
+}
+
+.button_blue:hover {
+    background-color: var(--button-blue-background-color_hover, #1C9C4D);
+
+    border: 2px solid var(--button-blue-background-color_hover, #1C9C4D);
 }
 
 a.button {

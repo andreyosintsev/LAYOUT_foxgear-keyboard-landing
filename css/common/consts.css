@@ -21,7 +21,8 @@
     --white:                    #FFFFFF; /* background */
 
     --red:                      #FF6666; /* form error */
-    --green:                    #1C9C4D; /* form success */
+    --green:                    #1C9C4D; /* form success, blue button hover */
+    --blue:                     #4A90E2; /* blue button */
 
 /*
     Шрифты
@@ -35,11 +36,11 @@
 
     /* --text-size-large:          18px; */
     --text-size-main:           20px;
-    /* --text-size-small:          14px; */
+    --text-size-small:          16px;
 
-    /* --text-size-large_mobile:   16px;
-    --text-size-main_mobile:    14px;
-    --text-size-small_mobile:   12px; */
+    /* --text-size-large_mobile:   16px;*/
+    --text-size-main_mobile:    18px;
+    /*--text-size-small_mobile:   12px; */
 
     --text-weight-main:         400;
     /* --text-weight-strong:       400; */
@@ -49,9 +50,9 @@
     --text-line-height-main:    30px;
     /* --text-line-height-small:   20px; */
 
-    /* --text-line-height-large_mobile:    22px;
-    --text-line-height-main_mobile:     18px;
-    --text-line-height-small_mobile:    16px; */
+    /* --text-line-height-large_mobile:    22px;*/
+    --text-line-height-main_mobile:     25px;
+    /*--text-line-height-small_mobile:    16px; */
 
 /*
     Фоны
@@ -92,5 +93,10 @@
     --button-outlined-color:                  var(--black);
     --button-outlined-background-color:       var(--white);
     --button-outlined-background-color_hover: var(--gray-light);
-    --button-normal-border-color:             var(--black);
+    --button-outlined-border-color:           var(--black);
+
+    --button-blue-color:                      var(--white);
+    --button-blue-background-color:           var(--blue);
+    --button-blue-background-color_hover:     var(--green);
+    --button-blue-border-color:               var(--blue);
 }
