@@ -5,10 +5,12 @@ html {
 body {
     color: var(--text-color-main, #000000);
     font-family: var(--text-family-main, sans-serif);
-    font-size: var(--text-size-main, 16px);
-    font-weight: var(--text-weight-main, 300);
+    font-size: var(--text-size-main, 20px);
+    font-weight: var(--text-weight-main, 400);
 
-    line-height: var(--text-line-height-main, 20px);
+    line-height: var(--text-line-height-main, 30px);
+
+    text-align: center;
 
     background-color: var(--background-color-main, #FFFFFF);
 
@@ -34,11 +36,12 @@ body {
     padding: 0;
 }
 
-.wrapper_dark {
-    color: var(--text-color-inverted, #FFFFFF);
-
-    background-color: var(--background-color-inverted, #000000);
+.paragraph {
+    margin-bottom: 40px;
 }
+
+
+/* Obsolete styles go here */
 
 .technology {
     padding-top: 90px;

@@ -36,6 +36,8 @@
 .hero-single__content {
     grid-area: content;
     padding-left: 3%;
+
+    text-align: left;
 }
 
 .hero-single__title {
