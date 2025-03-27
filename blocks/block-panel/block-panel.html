@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Block</title>
+    <link rel="stylesheet" href="../../css/common/normalize.css">
+    <link rel="stylesheet" href="../../css/common/consts.css">
+    <link rel="stylesheet" href="../section-title/css/section-title.css">
+    <link rel="stylesheet" href="../block-image/css/block-image.css">
+    <link rel="stylesheet" href="../button/css/button.css">
+    <link rel="stylesheet" href="css/block-panel.css">
+</head>
+<body style="background-color: yellowgreen; padding: 10px;">
+    <div class="block-panel">
+        <div class="block-panel__heading">
+            <div class="block-panel__heading-icons">
+                <img class="block-panel__icon block-panel__icon_psi"
+                    src="images/psi.png"
+                    alt="">
+                <img class="block-panel__icon block-panel__icon_rocket"
+                    src="images/rocket.png"
+                    alt="">
+            </div>
+            <div class="block-panel__heading-content">
+                <h2 class="section-title block-panel__title">Программирование с QMK & Launcher</h2>
+                <p class="block-panel__heading-text">
+                    Open-source прошивка QMK означает безграничные возможности по переназначению клавиш, макросов, горячих клавиш и пр. Благодаря веб-приложению Keychron Launcher вы можете без особого труда переназначать клавиши, настраивать глубину срабатывания, управлять магнитными свичами, создавать персонализированные макросы, горячие клавиши и сочетания клавиш для каждой клавиши.
+                </p>
+            </div>
+        </div>
+        <div class="block-image block-panel__image">
+            <picture>
+            <source
+                srcset="images/block-panel-01.webp"
+                media="(min-width: 769px)">
+            <img class="block-image__image"
+                src="images/block-panel-01.webp"
+                alt="Эргономичное офисное кресло">
+            </picture>
+        </div>
+        <a class="button block-panel__button button_gray">
+            Нажмите для перехода к Keychron Launcher
+        </a>
+        <p>
+            * Используйте браузеры Chrome / Opera / Edge последней версии, чтобы запустить Launcher и подключить клавиатуру к вашему устроству в режиме проводного соединения.
+        </p>
+    </div>
+</body>
+</html>

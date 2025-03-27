@@ -57,6 +57,25 @@
     border: 2px solid var(--button-blue-background-color_hover, #1C9C4D);
 }
 
+.button_gray {
+    display: inline-block;
+
+    color: var(--button-dark-color, #FFFFFF);
+    font-size: 16px;
+    font-weight: var(--text-weight-bold, 400);
+
+    background-color: var(--button-dark-background-color, #747474);
+
+    border: 2px solid var(--button-dark-background-color, #747474);
+    border-radius: 18px;
+}
+
+.button_gray:hover {
+    background-color: var(--button-gray-background-color_hover, #EF714B);
+
+    border: 2px solid var(--button-gray-background-color_hover, #EF714B);
+}
+
 a.button {
     text-decoration: none;
 }

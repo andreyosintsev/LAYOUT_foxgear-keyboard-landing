@@ -13,9 +13,10 @@
     Основная палитра
 */
     --black:                    #000000; /* main text */
+    --black-dark:               #2C2C2C; /* block panel background */
     --black-light:              #3C3C3C; /* button hover */
+    --gray-dark:                #747474; /* gray button */
     --gray:                     #A6A6A6; /* to collect */
-    --gray-dark:                #DCDCDC; /* compare */
     --gray-light:               #EFEFEF; /* button outlined hover */
     --off-white:                #F5F5F5; /* review background */
     --white:                    #FFFFFF; /* background */
@@ -23,6 +24,7 @@
     --red:                      #FF6666; /* form error */
     --green:                    #1C9C4D; /* form success, blue button hover */
     --blue:                     #4A90E2; /* blue button */
+    --orange:                   #EF714B; /* gray button hover*/
 
 /*
     Шрифты
@@ -48,7 +50,7 @@
 
     /* --text-line-height-large:   24px; */
     --text-line-height-main:    30px;
-    /* --text-line-height-small:   20px; */
+    --text-line-height-small:   24px;
 
     /* --text-line-height-large_mobile:    22px;*/
     --text-line-height-main_mobile:     25px;
@@ -65,12 +67,13 @@
     Рамки
 */
 
-    --border-radius-video:          20px; /* popup */
-    --border-radius-popup:          10px; /* popup */
+    --border-radius-video:          20px; /* popup  */
+    --border-radius-panel:          10px; /* panel  */
+    --border-radius-popup:          10px; /* popup  */
     --border-radius-button:         8px;  /* button */
-    --border-radius-flex:           5px; /* popup */
+    --border-radius-flex:           5px;  /* popup  */
     --border-radius-button_mini:    4px;  /* button */
-    --border-radius-input:          4px;  /* input */
+    --border-radius-input:          4px;  /* input  */
     --border-radius-review:         4px;  /* review */
 
 
@@ -99,4 +102,9 @@
     --button-blue-background-color:           var(--blue);
     --button-blue-background-color_hover:     var(--green);
     --button-blue-border-color:               var(--blue);
+
+    --button-gray-color:                      var(--white);
+    --button-gray-background-color:           var(--gray-dark);
+    --button-gray-background-color_hover:     var(--orange);
+    --button-gray-border-color:               var(--gray-dark);
 }
