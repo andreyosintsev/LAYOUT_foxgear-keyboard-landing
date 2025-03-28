@@ -1,6 +1,6 @@
 <?php
 
-    $site       = 'foxgear.ru';
+    $site       = 'keychron.ru';
     $from       = 'request@foxgear.ru';
     $to         = 'kintaro_oe@inbox.ru';
 
