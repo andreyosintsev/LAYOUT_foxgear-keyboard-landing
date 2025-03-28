@@ -18,7 +18,7 @@
 
 .flex-images__image {
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin-bottom: 30px;
 
     border-radius: inherit;

@@ -42,11 +42,12 @@
 
     /* --text-size-large_mobile:   16px;*/
     --text-size-main_mobile:    18px;
-    /*--text-size-small_mobile:   12px; */
+    --text-size-small_mobile:   14px;
+    --text-size-smaler_mobile:  12px;
 
     --text-weight-main:         400;
-    /* --text-weight-strong:       400; */
-    /* --text-weight-bold:         600; */
+    --text-weight-strong:       600;
+    --text-weight-bold:         800;
 
     /* --text-line-height-large:   24px; */
     --text-line-height-main:    30px;
@@ -54,7 +55,8 @@
 
     /* --text-line-height-large_mobile:    22px;*/
     --text-line-height-main_mobile:     25px;
-    /*--text-line-height-small_mobile:    16px; */
+    --text-line-height-small_mobile:    16px;
+    --text-line-height-smaller_mobile:    14px;
 
 /*
     Фоны

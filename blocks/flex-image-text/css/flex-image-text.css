@@ -44,10 +44,16 @@
 
 .flex-image-text__image {
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin-bottom: 30px;
 
     border-radius: inherit;
+}
+
+.flex-image-text__link {
+    color: var(--black-light, #3C3C3C);
+
+    text-decoration: none;
 }
 
 @media (max-width: 900px) {

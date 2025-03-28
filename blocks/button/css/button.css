@@ -5,7 +5,7 @@
     color: var(--button-normal-color, #FFFFFF);
     font-family: var(--text-family-main, sans-serif);
     font-size: var(--text-size-main, 20px);
-    font-weight: var(--text-weight-bold, 600);
+    font-weight: var(--text-weight-strong, 600);
 
     line-height: 18px;
     text-align: center;
@@ -44,7 +44,7 @@
 
     color: var(--button-blue-color, #FFFFFF);
     font-size: 16px;
-    font-weight: var(--text-weight-bold, 400);
+    font-weight: var(--text-weight-strong, 600);
 
     background-color: var(--button-blue-background-color, #4A90E2);
 
@@ -62,7 +62,7 @@
 
     color: var(--button-dark-color, #FFFFFF);
     font-size: 16px;
-    font-weight: var(--text-weight-bold, 400);
+    font-weight: var(--text-weight-strong, 600);
 
     background-color: var(--button-dark-background-color, #747474);
 

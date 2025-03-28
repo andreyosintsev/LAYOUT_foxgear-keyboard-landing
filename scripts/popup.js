@@ -168,6 +168,7 @@
     }
 
     function setProduct (button, popup) {
+        console.log(button);
         console.log('setProduct');
         if (!popup) {
             return console.error('DOM: no elemen #popup-order found');
