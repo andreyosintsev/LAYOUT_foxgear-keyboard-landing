@@ -13,7 +13,7 @@
     Основная палитра
 */
     --black:                    #000000; /* main text */
-    --black-dark:               #2C2C2C; /* block panel background */
+    --black-dark:               #2C2C2C; /* block panel background and border */
     --black-light:              #3C3C3C; /* button hover */
     --gray-dark:                #747474; /* gray button */
     --gray:                     #A6A6A6; /* to collect */
@@ -36,7 +36,7 @@
     --text-family-main:         'Lato', arial, sans-serif;
     /* --text-family-featured:     Roboto, arial, sans-serif; */
 
-    /* --text-size-large:          18px; */
+    --text-size-large:          22px;
     --text-size-main:           20px;
     --text-size-small:          16px;
 

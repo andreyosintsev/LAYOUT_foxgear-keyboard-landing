@@ -8,6 +8,18 @@
     margin: 0 auto;
 }
 
+.flex-image-text_center {
+    align-items: center;
+}
+
+.flex-image-text_center .flex-image-text__image {
+    margin-bottom: 0;
+}
+
+.flex-image-text_center .flex-image-text__text {
+    text-align: center;
+}
+
 .flex-image-text__item {
     width: 48%;
 }

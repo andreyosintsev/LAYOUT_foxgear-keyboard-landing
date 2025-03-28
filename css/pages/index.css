@@ -52,6 +52,36 @@ body {
     margin-top: 100px;
 }
 
+.flex-image-text__item_padding {
+    padding: 15px;
+}
+
+.flex-image-text__image_fixed-width {
+    width: 471px;
+}
+
+.flex-image-text__button {
+    font-size: var(--text-size-main, 20px);
+
+    line-height: var(--text-line-height-main, 30px);
+
+    border-radius: 10px;
+}
+
+a.note {
+    display: inline-block;
+    margin-top: 20px;
+
+    font-size: var(--text-size-main, 20px);
+
+    text-decoration: none;
+}
+
+a.note:hover {
+    text-decoration: none;
+}
+
+
 
 /* Obsolete styles go here */
 
@@ -116,6 +146,10 @@ body {
         padding-left: 16px;
         gap: 0;
     }
+
+    .flex-image-text__image_fixed-width {
+        width: 100%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -134,7 +168,7 @@ body {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     body {
         font-size: var(--text-size-main_mobile, 18px);
 

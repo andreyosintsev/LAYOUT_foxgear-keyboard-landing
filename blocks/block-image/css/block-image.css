@@ -3,12 +3,16 @@
     width: 100%;
     max-width: var(--max-content-width, 1920px);
     margin: 30px auto;
+
+    overflow: hidden;
 }
 
 .block-image__image {
     display: block;
     width: 100%;
     height: auto;
+
+    border-radius: inherit;
 }
 
 .block-image__link {
