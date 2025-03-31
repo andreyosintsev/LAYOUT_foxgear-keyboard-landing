@@ -56,12 +56,6 @@
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
-    .flex-image-text__title {
-        margin-top: -50px;
-    }
-}
-
 @media (max-width: 768px) {
     .flex-image-text {
         display: block;

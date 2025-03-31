@@ -67,6 +67,7 @@
 }
 
 .menu-mobile__link {
+    display: block;
     padding-bottom: 3px;
 
     color: var(--black-light, #3C3C3C);
