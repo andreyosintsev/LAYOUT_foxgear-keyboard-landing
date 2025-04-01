@@ -30,6 +30,10 @@
     margin-right: 3%;
 }
 
+.hero-single__photo {
+    cursor: pointer;
+}
+
 .hero-single__photo_active {
     outline: 1px solid var(--gray, #A6A6A6);
     outline-offset: -1px;
@@ -71,21 +75,6 @@
     width: 100%;
     max-width: 200px;
     margin: 30px 0 50px;
-}
-
-.hero-slider__cards {
-    width: calc(100% - 140px);
-
-    margin: 0 20px;
-}
-
-.hero-slider__link {
-    display: block;
-}
-
-.hero-slider__image {
-    width: 100%;
-    height: auto;
 }
 
 .hero-single__benefits {

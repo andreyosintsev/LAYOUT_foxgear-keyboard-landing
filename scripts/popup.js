@@ -54,7 +54,6 @@
         });
 
         function hidePopupAndResetForm() {
-            console.log('hidePopupAndResetForm');
             hidePopup(body, popup, overlay);
             setProduct(undefined, popup);
             resetForm(popupForm);
@@ -63,7 +62,6 @@
         }
 
         function hidePopups() {
-            console.log('hidePopups');
             hidePopupAndResetForm();
             hidePopup(body, popupSuccess, overlay);
             hidePopup(body, popupFailed, overlay);
@@ -78,7 +76,6 @@
         }
 
         popupForm.addEventListener('submit', (e) => {
-            console.log('submit formPopup');
             e.preventDefault();
 
             if (!checkFormErrors(e)) return;
@@ -154,22 +151,18 @@
     });
 
     function showPopup (body, popup, overlay) {
-        console.log('showPopup');
         body.classList.add('noscroll');
         popup.classList.remove('hidden');
         if (overlay) overlay.classList.remove('hidden');
     }
 
     function hidePopup (body, popup, overlay) {
-        console.log('hidePopup');
         body.classList.remove('noscroll');
         popup.classList.add('hidden');
         if (overlay) overlay.classList.add('hidden');
     }
 
     function setProduct (button, popup) {
-        console.log(button);
-        console.log('setProduct');
         if (!popup) {
             return console.error('DOM: no elemen #popup-order found');
         }
@@ -192,8 +185,6 @@
     }
 
     function checkFormErrors(e) {
-        console.log('checkFormErrors');
-
         let isFormValid = true;
 
         const form = e.currentTarget;
@@ -227,7 +218,6 @@
     }
 
     function clearFormErrors(form) {
-        console.log('clearFormErrors');
         if (!form) {
             return console.error('DOM: no .form element found');
         }
@@ -240,7 +230,6 @@
     }
 
     function resetForm(form) {
-        console.log('resetForm');
         if (!form) {
             return console.error('DOM: no .form element found');
         }
@@ -256,14 +245,12 @@
     }
 
     function showLoader(loader){
-        console.log('showLoader');
         if (!loader) return;
 
         loader.classList.remove('hidden');
     }
 
     function hideLoader(loader){
-        console.log('hideLoader');
         if (!loader) return;
 
         loader.classList.add('hidden');

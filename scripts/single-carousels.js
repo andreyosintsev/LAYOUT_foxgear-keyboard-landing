@@ -11,10 +11,10 @@ $(document).ready(function() {
         nav: false,
         dots: false,
         responsive: {
-            0: { 
-                items: 2,
+            0: {
+                items: 3,
             },
-            480: { 
+            480: {
                 items: 3,
             },
             1200: {
