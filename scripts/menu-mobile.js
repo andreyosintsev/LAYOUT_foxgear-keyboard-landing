@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.querySelector('body');
 
     menuMobileButton.addEventListener('click', () => {
-        if (menuMobile.classList.contains('hidden')) {
+        if (menuMobile.classList.contains('menu-mobile_hidden')) {
             showMenuMobile();
         } else {
             hideMenuMobile();
@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showMenuMobile() {
         menuMobileButton.classList.add('menu-mobile-button_close');
-        menuMobile.classList.remove('hidden');
+        menuMobile.classList.remove('menu-mobile_hidden');
         body.classList.add('noscroll');
     }
 
     function hideMenuMobile() {
         menuMobileButton.classList.remove('menu-mobile-button_close');
-        menuMobile.classList.add('hidden');
+        menuMobile.classList.add('menu-mobile_hidden');
         body.classList.remove('noscroll');
     }
 

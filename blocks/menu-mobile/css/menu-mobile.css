@@ -22,8 +22,12 @@
 
     overflow-y: auto;
 
-    transform: translateX(100%); /* уезжает за пределы */
+    transform: translateX(0); /* уезжает за пределы */
     transition: transform 0.3s ease-in-out; /* плавный выезд */
+}
+
+.menu-mobile_hidden {
+    transform: translateX(100%); /* уезжает за пределы */
 }
 
 .menu-mobile__logo {
