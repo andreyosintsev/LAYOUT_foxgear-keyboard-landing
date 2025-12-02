@@ -1,9 +1,9 @@
 (function() {
 
     const products = {
-        'K2H-J1-RU': '18 990,00',
-        'K2H-F1-RU': '19 990,00',
-        'K2H-Q1-RU': '19 990,00'
+        'K2H-J1-RU': '15 990,00',
+        'K2H-F1-RU': '16 990,00',
+        'K2H-Q1-RU': '16 990,00'
     }
 
     const imagesProducts = document.querySelector('.hero-single__photos');
