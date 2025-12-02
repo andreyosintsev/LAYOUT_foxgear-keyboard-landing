@@ -127,7 +127,7 @@
                 showPopup(body, popupFailed, overlay);
             })
             .finally(() => {
-                // hideLoader(loader);
+                hideLoader(loader);
             })
 
             function checkFetchResponse (res) {
@@ -247,12 +247,12 @@
     function showLoader(loader){
         if (!loader) return;
 
-        loader.classList.remove('hidden');
+        loader.classList.remove('loader_hidden');
     }
 
     function hideLoader(loader){
         if (!loader) return;
 
-        loader.classList.add('hidden');
+        loader.classList.add('loader_hidden');
     }
 })();
