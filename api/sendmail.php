@@ -1,6 +1,6 @@
 <?php
 
-    $site       = 'foxgear.store';
+    $site       = 'k2he.keychron-russia.ru';
     $from       = 'info@foxgamer.ru';
     $to         = 'info@foxgamer.ru';
 

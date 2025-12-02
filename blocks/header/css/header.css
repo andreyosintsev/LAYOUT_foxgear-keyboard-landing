@@ -30,10 +30,13 @@
 .pre-header__motto {
     grid-area: motto;
     justify-self: center;
+
+    line-height: 1.2;
 }
 
 .pre-header__logo {
     grid-area: logo;
+    display: flex;
     justify-self: center;
     width: 250px;
     height: 89px;
